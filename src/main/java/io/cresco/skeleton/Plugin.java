@@ -22,7 +22,7 @@ import java.util.Map;
 public class Plugin implements PluginService {
 
     public BundleContext context;
-    public static  PluginBuilder pluginBuilder;
+    public PluginBuilder pluginBuilder;
     private Executor executor;
     private CLogger logger;
     private Map<String, Object> map;
